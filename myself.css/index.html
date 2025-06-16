@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eid-ul-Adha Mubarak</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#0f2027, #203a43, #2c5364);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+      animation: fadeInDown 2s ease-out;
+    }
+
+    .crescent {
+      margin: 30px auto;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle at 30% 30%, #fff 40%, transparent 41%);
+      border-radius: 50%;
+      box-shadow: -30px 0 0 0 #fff;
+      animation: rotateMoon 10s linear infinite;
+    }
+
+    .characteristics {
+      margin-top: 30px;
+      font-size: 1.2em;
+      animation: fadeIn 3s ease-in;
+    }
+
+    .characteristics span {
+      display: inline-block;
+      margin: 10px;
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      border: 1px solid #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .characteristics span:hover {
+      transform: scale(1.2);
+      background: #fff;
+      color: #2c5364;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes rotateMoon {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      font-size: 1em;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌙 Eid-ul-Adha Mubarak!</h1>
+  <div class="crescent"></div>
+
+  <div class="characteristics">
+    <span>Kindness</span>
+    <span>Faith</span>
+    <span>Unity</span>
+    <span>Sacrifice</span>
+    <span>Gratitude</span>
+    <span>Sharing</span>
+  </div>
+
+  <div class="footer">
+    May your heart be filled with peace and joy.
+  </div>
+</body>
+</html>
